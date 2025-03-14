@@ -6,8 +6,8 @@ import RocateLaunch from '../../assets/rocketlaunch.png'
 const Rockets = () => {
   return (
     <div>
-    <div className='p-6 my-12'>
-        <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+    <div className='p-10 pt-0 my-12'>
+        <h2 className="widescreen:section-min-height tallscreen:section-min-height text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white -mt-7">
             Our Rockets
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
